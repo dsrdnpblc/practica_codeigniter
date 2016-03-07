@@ -9,4 +9,9 @@ class Prueba extends CI_Controller {
 	function index(){
 		$this->load->view('prueba/bienvenido');
 	}
+
+	function hello(){
+		$this->load->view('prueba/headers');
+		$this->load->view('prueba/bienvenido');
+	}
 }
